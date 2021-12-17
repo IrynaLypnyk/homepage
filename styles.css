@@ -116,7 +116,8 @@ body {
     justify-content: center;
 }
 
-.contact-info__item-icon path {
+.contact-info__item-icon path{
+    color: var(--icon-color);
     fill: var(--icon-color);
 }
 
@@ -174,7 +175,7 @@ body {
 
 /* Experience and additonal info */
 
-experiences {
+.experiences {
     flex: 1 1 60%;
     margin-right: 50px;
 }
