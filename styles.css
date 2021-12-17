@@ -1,5 +1,3 @@
-/* general styles */
-
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +12,8 @@ body {
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --border-color: #ccf4f1;
+    --text-decoration-color: #7be2db;
 }
 
 .container {
@@ -51,7 +49,6 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-
     .main-info,
     .contact_info_container {
         flex-direction: column;
@@ -70,7 +67,6 @@ body {
     }
 }
 
-/*  contact info */
 .contact-info__header,
 .contact-info__sub-header {
     text-align: center;
@@ -116,7 +112,7 @@ body {
     justify-content: center;
 }
 
-.contact-info__item-icon path{
+.contact-info__item-icon path {
     color: var(--icon-color);
     fill: var(--icon-color);
 }
@@ -135,7 +131,6 @@ body {
     border-color: var(--text-decoration-color);
 }
 
-/*  Intro and skills */
 .intro {
     display: flex;
     justify-content: start;
@@ -172,8 +167,6 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
 }
-
-/* Experience and additonal info */
 
 .experiences {
     flex: 1 1 60%;
@@ -213,7 +206,8 @@ body {
     font-size: 15px;
 }
 
-.experiences__company-project-name {
+.experiences__company-project-name,
+.experiences__company-project-name a {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
